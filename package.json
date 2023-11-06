@@ -1,0 +1,18 @@
+{
+  "name": "whatsapp",
+  "version": "1.0.0",
+  "description": "Whatsapp type application",
+  "main": "index.html",
+  "scripts": {
+    "start":"nodemon server.js"
+  },
+  "author": "Bobby",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}
